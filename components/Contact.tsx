@@ -106,8 +106,8 @@ export default function Contact() {
               Get In Touch
             </h2>
             <p className="text-lg md:text-xl max-w-2xl mx-auto" style={{ color: '#6E7575' }}>
-              Have a project in mind or want to collaborate? I'd love to hear
-              from you. Send me a message and I'll respond as soon as possible.
+              Have a project in mind or want to collaborate? I&apos;d love to hear
+              from you. Send me a message and I&apos;ll respond as soon as possible.
             </p>
           </motion.div>
 
