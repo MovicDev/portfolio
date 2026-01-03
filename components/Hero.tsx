@@ -96,7 +96,7 @@ export default function Hero() {
           </motion.div>
 
           {/* Large Bold Typography */}
-          <div className="relative pt-20 md:pt-32 pb-32 md:pb-40">
+          <div className="relative md:pt-32 pb-32 md:pb-40">
             <motion.div
               variants={containerVariants}
               initial="hidden"
@@ -156,10 +156,10 @@ export default function Hero() {
               {/* Mobile/Tablet Description */}
               <motion.div
                 variants={itemVariants}
-                className="mt-8 md:hidden text-center"
+                className="md:hidden text-start"
               >
                 <p 
-                  className="text-base leading-relaxed mb-6 max-w-md mx-auto"
+                  className="text-base leading-relaxed relative top-48 max-w-md mx-auto"
                   style={{ color: '#6E7575' }}
                 >
                   Specialized in crafting elegant web and mobile applications with clean code and exceptional user experiences.
